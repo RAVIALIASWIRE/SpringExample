@@ -16,6 +16,6 @@ public class App
         HelloWorld obj = (HelloWorld) context.getBean("helloBean");
         obj.printHello();
         System.out.println("hello jenkins");
-        System.out.println("hey  shiva,i succesfully  build my sample project in  jenkins and deploy it to tomcat");
+        System.out.println("hey,i succesfully  build my sample project in  jenkins and deploy it to tomcat");
     }
 }
